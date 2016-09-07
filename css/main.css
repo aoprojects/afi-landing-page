@@ -1,3 +1,8 @@
+a:hover {
+	color: #D0583B;
+}
+
+
 .brand-danger {
 	color: #D0583B;
 }
@@ -55,6 +60,10 @@ footer {
 	margin-top: -15px;
 }
 
+.larger {
+	font-size: 1.4em;
+}
+
 #newsletter-sign-up-section {
 	padding: 15px;
 	/*border: 1px solid black;*/
@@ -69,23 +78,31 @@ footer {
 	color: #D0583B;
 }
 
-
-#newsletter-sign-up-section input::-webkit-input-placeholder {
+/*#newsletter-sign-up-section input::-webkit-input-placeholder {
 	color: gray;
-}
+}*/
 
 #newsletter-sign-up-section legend {
 	border: none;
 	margin: -20px;
 }
+
 #newsletter-sign-up-section button {
 	position: relative;
 	top: -40px;
 }
 
-
 p {
 	text-align: center;
+}
+
+#sign-up-success-section {
+	/*border: #D0583B 1px solid;*/
+	border-radius: 5px;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 30px;
+	background: rgba(255,255,255,0.1);
 }
 
 @media only screen and (max-width: 420px) {
