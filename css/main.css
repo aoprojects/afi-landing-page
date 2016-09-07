@@ -1,0 +1,102 @@
+.brand-danger {
+	color: #D0583B;
+}
+
+#bad-agent-phrases {
+	margin: 10px;
+	text-align: left;
+	font-size: 16px;
+}
+
+#bad-agent-phrases p {
+	text-decoration: line-through;
+}
+
+body {
+	color: white;
+	/*background: #0B1C48;*/
+	background: url("../images/footer_lodyas.png");
+}
+
+button {
+	font-size: 3em;
+	padding: 0px 30px;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+
+#description-section {
+	margin: 3em auto;
+}
+
+h1 {
+  padding: 35px;
+
+}
+
+h2{
+	font-size: 2.5em;
+	text-align: center;
+	color: #D0583B;
+}
+
+footer, a, #bad-agent-phrases{
+	color: rgba(86,173,137,0.7);
+}
+
+footer {
+	border-top: rgba(86,173,137,0.7) solid 1px;
+	padding: 15px;
+}
+
+#join-tagline {
+	font-size: 3em;
+	margin-top: -15px;
+}
+
+#newsletter-sign-up-section {
+	padding: 15px;
+	/*border: 1px solid black;*/
+	/*background: gray;*/
+}
+
+#newsletter-sign-up-section input {
+	margin: 10px auto;
+	padding: 15px;
+	width: 90%;
+	text-align: center;
+	color: #D0583B;
+}
+
+
+#newsletter-sign-up-section input::-webkit-input-placeholder {
+	color: gray;
+}
+
+#newsletter-sign-up-section legend {
+	border: none;
+	margin: -20px;
+}
+#newsletter-sign-up-section button {
+	position: relative;
+	top: -40px;
+}
+
+
+p {
+	text-align: center;
+}
+
+@media only screen and (max-width: 420px) {
+	.title {
+		font-size: 30px;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	#join-tagline {
+		font-size: 30px;
+	}
+}
