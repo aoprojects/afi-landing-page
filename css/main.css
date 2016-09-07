@@ -105,6 +105,14 @@ p {
 	background: rgba(255,255,255,0.1);
 }
 
+.title a {
+	color: white;
+}
+
+.title a:hover {
+	text-decoration: none;
+}
+
 @media only screen and (max-width: 420px) {
 	.title {
 		font-size: 30px;
