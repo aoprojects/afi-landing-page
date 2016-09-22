@@ -74,8 +74,12 @@ footer {
 	margin: 10px auto;
 	padding: 15px;
 	width: 90%;
+	max-width: 600px;
 	text-align: center;
 	color: #D0583B;
+	border: none;
+	border-bottom: 1px solid;
+	transition: ease-in 0.1s;
 }
 
 /*#newsletter-sign-up-section input::-webkit-input-placeholder {
